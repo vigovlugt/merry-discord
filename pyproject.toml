@@ -1,0 +1,12 @@
+[project]
+name = "merry-discord"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.6",
+    "mediapipe>=0.10.20",
+    "numpy>=1.26.4",
+    "opencv-python>=4.10.0.84",
+]
